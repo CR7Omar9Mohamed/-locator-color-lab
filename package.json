@@ -1,0 +1,17 @@
+{
+  "name": "locator-color-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minecraft Java player locator color finder",
+  "scripts": {
+    "build": "node -e \"console.log('Static web app: no build step required')\"",
+    "android:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
